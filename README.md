@@ -1,2 +1,2 @@
 # mern-workout-app
- MERN project
+ MERN "Workout Buddy" project with Authentication (JWT)
