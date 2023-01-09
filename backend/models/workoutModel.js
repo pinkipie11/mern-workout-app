@@ -17,6 +17,11 @@ const workoutSchema = new Schema(
       type: Number,
       required: true,
     },
+    // associating every workout document with a particular user
+    user_id: {
+      type: String,
+      required: true,
+    },
   },
   { timestamps: true }
 );
